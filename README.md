@@ -1,4 +1,4 @@
-#Sudoku
+# Sudoku
 def is_valid_sudoku(board):
     def is_valid_unit(unit):
         unit = [i for i in unit if i != 0]
